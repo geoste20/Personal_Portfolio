@@ -327,6 +327,7 @@
       width: 90%;
       gap: 30px;
       text-align: center;
+      align-items: center;
   }
 
   .nav-links {
@@ -350,5 +351,11 @@
   .download-btn {
       display: inline-block;
       margin-top: 15px;
+  }
+
+  .contact-form {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
   }
 }

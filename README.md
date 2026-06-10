@@ -99,6 +99,10 @@ This project is a personal portfolio website created from scratch using HTML, CS
 5. **User Experience Improvement:**
    Interactivity improves the user experience by making the website easier to navigate, allowing users to contact me directly, and making actions feel clear and responsive.
 
+## Responsive Design
+
+The website is fully responsive and optimized for desktop, tablet, and mobile devices. CSS media queries adjust layouts, images, navigation, and forms to ensure a clean and user-friendly experience on all screen sizes.'
+
 ## Technical Overview
 
 The website was built using:
