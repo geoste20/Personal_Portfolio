@@ -299,9 +299,9 @@
   display: none;
   margin-top: 20px;
   padding: 15px;
-  background: #111;
+  background-color: #111;
   border: 1px solid #2b4bff;
   border-radius: 8px;
-  color: #2b4bff;
-  font-weight: bold;
+  color: white;
+  text-align: center;
 }
