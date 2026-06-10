@@ -124,7 +124,10 @@
     padding: 80px 10%;
     background: #070707;
 }
-
+.about-content strong {
+  color: #2b4bff;
+  font-weight: bold;
+}
 .about-container {
     display: flex;
     align-items: center;
