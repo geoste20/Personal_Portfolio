@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +60,7 @@
     font-weight: bold;
   }
   
-  /* Home Section */
+  /* Home Page */
   .home {
     min-height: 80vh;
     width: 80%;
@@ -118,7 +119,7 @@
     background-color: #2b4bff;
     color: black;
   }
-  /* ABOUT PAGE */
+  /* About Page */
 .about-page {
     min-height: 100vh;
     padding: 80px 10%;
@@ -155,6 +156,8 @@
     margin-bottom: 20px;
     font-size: 18px;
 }
+
+  /* Skills Page */
 .skills-page {
     min-height: 100vh;
     padding: 80px 10%;
@@ -188,7 +191,7 @@
     color: #cfcfcf;
     line-height: 1.7;
 }
-/* EDUCATION PAGE */
+/* Education Page */
 .education-page {
     min-height: 100vh;
     padding: 80px 10%;
@@ -233,7 +236,7 @@
     object-fit: contain;
     transition: 0.3s ease;
 }
-/* CONTACT PAGE */
+/* Contact Page */
 .contact-page {
     min-height: 100vh;
     padding: 80px 10%;
@@ -306,5 +309,11 @@
   border: 1px solid #2b4bff;
   border-radius: 8px;
   color: white;
+  text-align: center;
+}
+.page-title {
+  font-size: 55px;
+  color: #2b4bff;
+  margin-bottom: 40px;
   text-align: center;
 }

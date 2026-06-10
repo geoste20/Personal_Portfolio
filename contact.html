@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,113 +10,90 @@
 
 <body>
 
-<header>
-    <nav class="navbar">
-        <a href="index.html" class="logo">GS</a>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">GS</a>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="https://github.com/geoste20" target="_blank">GitHub</a></li>
-        </ul>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="https://github.com/geoste20" target="_blank">GitHub</a></li>
+            </ul>
 
-        <a href="contact.html" class="contact-btn">Contact Me</a>
-    </nav>
-</header>
+            <a href="contact.html" class="contact-btn">Contact Me</a>
+        </nav>
+    </header>
 
-<section class="contact-page">
+    <section class="contact-page">
 
-    <div class="contact-container">
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
 
-        <div class="contact-info">
+                <h1 class="page-title">CONTACT ME</h1>
 
-            <h1 class="page-title">CONTACT ME</h1>
+                <h2>Let's Connect</h2>
 
-            <h2>Let's Connect</h2>
+                <p>
+                    Feel free to reach out regarding opportunities,
+                    projects, collaborations, or networking.
+                </p>
+                <!-- Contact Details -->
+                <div class="contact-item">
+                    <strong>Email:</strong><br>
+                    <a href="mailto:george3267@gmail.com">
+                        george3267@gmail.com
+                    </a>
+                </div>
 
-            <p>
-                Feel free to reach out regarding opportunities,
-                projects, collaborations, or networking.
-            </p>
+                <div class="contact-item">
+                    <strong>LinkedIn:</strong><br>
+                    <a href="https://www.linkedin.com/in/giorgos-stefanis-4a9283195/" target="_blank">
+                        View Profile
+                    </a>
+                </div>
 
-            <div class="contact-item">
-                <strong>Email:</strong><br>
-                <a href="mailto:george3267@gmail.com">
-                    george3267@gmail.com
-                </a>
+                <div class="contact-item">
+                    <strong>GitHub:</strong><br>
+                    <a href="https://github.com/geoste20" target="_blank">
+                        github.com/geoste20
+                    </a>
+                </div>
+
             </div>
+            <!-- Contact Form -->
+            <form class="contact-form" action="https://formsubmit.co/george3267@gmail.com" method="POST">
+                <!-- Name Input -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <!-- Email Input -->
+                <input type="email" name="email" placeholder="Your Email" required>
+                <!-- Message Input -->
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                <!-- FormSubmit Configuration -->
+                <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
 
-            <div class="contact-item">
-                <strong>LinkedIn:</strong><br>
-                <a href="https://www.linkedin.com/in/giorgos-stefanis-4a9283195/"
-                   target="_blank">
-                    View Profile
-                </a>
-            </div>
+                <input type="hidden" name="_captcha" value="false">
 
-            <div class="contact-item">
-                <strong>GitHub:</strong><br>
-                <a href="https://github.com/geoste20"
-                   target="_blank">
-                    github.com/geoste20
-                </a>
+                <input type="hidden" name="_next"
+                    value="https://geoste20.github.io/Personal_Portfolio/contact.html?success=true">
+                <!-- Submit Button -->
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+            <!-- Success Message -->
+            <div id="success-message">
+                Thank you! Your message has been sent successfully.
             </div>
 
         </div>
 
-        <form
-        class="contact-form"
-        action="https://formsubmit.co/george3267@gmail.com"
-        method="POST"
-    >
-    
-        <input type="text"
-               name="name"
-               placeholder="Your Name"
-               required>
-    
-        <input type="email"
-               name="email"
-               placeholder="Your Email"
-               required>
-    
-        <textarea
-            name="message"
-            rows="6"
-            placeholder="Your Message"
-            required></textarea>
-    
-        <input type="hidden"
-               name="_subject"
-               value="New Portfolio Contact Form Submission">
-    
-        <input type="hidden"
-               name="_captcha"
-               value="false">
-    
-               <input type="hidden"
-               name="_next"
-               value="https://geoste20.github.io/Personal_Portfolio/contact.html?success=true">
-    
-        <button type="submit">
-            Send Message
-        </button>
-    
-    </form>
-    
-    <div id="success-message">
-        Thank you! Your message has been sent successfully.
-    </div>
-
-    </div>
-
-</section>
-<script>
-    if (window.location.search.includes("success=true")) {
-        document.getElementById("success-message").style.display = "block";
-    }
-    </script>
+    </section>
+    <script src="script.js"></script>
 </body>
+
 </html>
