@@ -317,3 +317,38 @@
   margin-bottom: 40px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .navbar,
+  .home,
+  .about-container,
+  .contact-container,
+  .education-card {
+      flex-direction: column;
+      width: 90%;
+      gap: 30px;
+      text-align: center;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .home-image img,
+  .about-image img {
+      width: 100%;
+      height: auto;
+  }
+
+  .home-content h1,
+  .about-content h1,
+  .page-title {
+      font-size: 38px;
+  }
+
+  .contact-btn,
+  .download-btn {
+      display: inline-block;
+      margin-top: 15px;
+  }
+}
